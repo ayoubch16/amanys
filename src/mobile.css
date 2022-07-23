@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    .logoImg {
+        width: 100px;
+        height: 50px;
+      }
+    .TopProduct .divInfo h1 {
+        font-size: 3rem;
+    }
+    .TopProduct .divInfo h2 {
+        font-size: 1.5;
+        top: -15px;
+      }
+      .Categorie {
+        height: 350px;
+      }
+      .Categorie .catInfo h1 {
+        font-size: 17px;
+      }
+      .ListProducts .product-info .titreProduct {
+        font-size: 15px;
+      }
+      .ListProducts .product-info .prix {
+        font-size: 15px;
+      }
+      .ListProducts .product-info .dot {
+        height: 15px;
+        width: 15px;
+
+      }
+
+
+  }

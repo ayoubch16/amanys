@@ -1,13 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './mobile.css';
+import Top from './components/Top';
+import Bar from './components/Bar';
+import TopProduct from './components/TopProduct';
+import Categorie from './components/Categorie';
+import ListProducts from './components/ListeProducts';
+import Meilleurvente from './components/Meilleurvente';
+import CovertureImg from './components/CovertureImg';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Top />
+    <Bar />
+    <TopProduct />
+    <Categorie />
+    <ListProducts />
+    <Meilleurvente />
+    <CovertureImg />
   </React.StrictMode>
 );
 
